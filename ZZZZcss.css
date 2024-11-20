@@ -55,7 +55,7 @@ h3:hover {
 img:hover {
     filter: grayscale(0%);  /* Brings back most of the image's color when hovered over */
     transition: transform ease-in 2s;
-    transform: scale(1.15); 
+    transform: scale(1.10); 
 }
 
 video:hover {
@@ -109,8 +109,8 @@ video:hover {
         font-family:"Josefin Sans", sans-serif;
         font-size: 1rem;
         font-weight:400;/* "bold-ness" scale:100-900 */
-        -mov-webkit-animation:movenavText 9.75s;/* Safari 4.0 - 8.0 */
-        animation:movenavText 9.75s;
+        -mov-webkit-animation:movenavText 5.75s;/* Safari 4.0 - 8.0 */
+        animation:movenavText 5.75s;
 }
 
 @keyframes navTextOnHover {
@@ -133,8 +133,8 @@ video:hover {
                     1.75px 1.75px 1.75px cornflowerblue,
                     2px 2px 2px cornflowerblue,
                     2.25px 2.25px 2.25px cornflowerblue;/* makes the text on the navbar bold when hovered over */
-        -mov-webkit-animation: navTextOnHover .45s;
-        animation: navTextOnHover .45s;
+        -mov-webkit-animation: navTextOnHover .25s;
+        animation: navTextOnHover .25s;
 }
  
  .navbar_wrap a.active:hover{
@@ -147,8 +147,8 @@ video:hover {
                     2px 2px 2px cornflowerblue,
                     2.25px 2.25px 2.25px cornflowerblue,
                     2.5px 2.5px 2.5px cornflowerblue;
-        transform:scaleZ(1.1);
-        transition:ease-in 3s;
+        transform:scaleZ(1.75);
+        transition:ease-in 1.75s;
 }  
 
 /* Navbar home button */
@@ -622,7 +622,7 @@ div.Slide_Text {
 /* The dots under the slideshow */
 #dotBox {
        position:relative;
-        top:-15vh;
+        top:-21vh;
         left:14.5vw;
         margin:0 auto;
 }
@@ -782,7 +782,9 @@ div.Slide_Text {
         text-align:justify;
         font-family:"Josefin Sans", sans-serif;
         font-size: .75rem;
+        line-height: 1rem;
         font-weight:200;
+        color:white;
 }
 
 div#PSA h5 {
@@ -790,6 +792,8 @@ div#PSA h5 {
         margin:0;
         padding-bottom:5vh;
         margin-bottom:1%;
+        color:white;
+        font-weight:bold;
 }
 
 #About_Header{
@@ -804,7 +808,7 @@ div#PSA h5 {
                     2.5px 2.5px 2.5px black,
                     2.75px 2.75px 2.75px black;
         font-family:"Stalemate", cursive;
-        font-size:5rem;
+        font-size:3.5rem;
         font-weight:300;
 }
 
