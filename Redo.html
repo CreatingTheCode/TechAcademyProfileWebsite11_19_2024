@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="FavIcon_PinkBeeMe.ico" type="image/x-icon"> 
+    <link rel="stylesheet" type="text/css" href="Redo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" rel="stylesheet">
+
+    <script src="JavaScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
+</head>
+<body>
+
+  <!-- Floating Contact Button for Form lower righthand corner of viewport-->
+ 
+
+
+<!--     BEGIN AUDIO PLATER   -->
+
+<audio autoplay>
+    <source src="Cake_ShortSkirtLongJacket.mp3" type="audio/mp3">
+      Your browser doesn't support HTML5 audio instead.
+</audio>
+
+<!--   END AUDIO PLAYER    -->
+
+<!--BEGIN CONTACT POP-UP FORM BUTTON-->
+<div id="ContactButton" >
+  <button class="button cancel Pop_Up_Button" onclick="openForm()">Contact Me
+
+  </button>
+    <!--NOTE: This allows us to close the form when we click outside the nav bar or
+    <button id="floatingContactButton" class="Pop_Up_Button"> Contact Me </button> contact form -->
+</div>
+<!--END  CONTACT POP-UP FORM BUTTON-->
+
+
+<!-- BEGIN Navbar -->
+
+<nav id="Navbar" class="navbar_wrap">
+    <a class="btn active" href="#Home">Home</a>
+  
+    <a class="btn" href="#Slideshow">Slideshow</a>
+    <a class="btn" href="#About">About</a>
+    <a class="btn" href="#GitHub">GitHub</a>
+    <a class="btn" href="#LinkedIn">LinkedIn</a>
+    <a class="btn" href="#Poem">Poem</a>
+    <a class="btn" onclick="openForm()">Contact</a>
+</nav>
+
+<!-- END Navbar -->
+
+
+<!-- BEGIN Header-->
+
+<!--  Hero - Video Sparkling Moon Background with Into Text   -->
+<header id="Home"> 
+    <div id="Home_Background-Video_Container"> <!--Video  visible in background on scroll / position:fixed; -->
+        <video autoplay muted loop id="Golden-Moon_Video" >
+            <source src="Golden-Moon_Portfolio-Video.mp4" type="video/mp4"> 
+                      Your browser does not support HTML5 video.
+        </video>
+            <div class="header_video-text_container">
+                <div class="home_video-text_wrap_1">
+                    <h1 id="Intro-Text_1" >C<span>reating</span>T<span>he</span>C<span>ode.com</span></h1>
+                </div>
+            <!--Supposed to look like those "Hello- My name is..." stickers you fill out and stick to your shirt at high school reunions or networking functions (yes?...Yes!...LOL)--> 
+                <div class="home_video-text_wrap_2">
+                    <h4  id ="MyNameIs-Text_2">Hello... My name is:</h4>
+                </div> 
+                
+                <div class="home_video-text_wrap_3">
+                    <h2 id="Name-Text_3">LaurieSue Peterson</h2>
+                </div>
+
+                <div class="home_video-text_wrap_4">
+                    <h4 id="IAmDev-Text_4">. . .  and I am a <span id="Dev">Software Engineer </span> . . . </h4>
+                </div>
+        
+          </div>
+    </div>
+
+
+</header>
+
+
+<figure id="Slideshow">  
+      <div id="Carousel" class="slideshow_container">
+           <div class="mySlides fade">
+                  <div id="mePic_slide-1" class="Slideshow_Image">
+                      <img src="./picOfMe.jpg" alt="Image of LaurieSue Peterson">
+                  </div>
+                  <figcatpion class="Slide_Text">Full-Stack Software Developement is my favorite pasttime. Being able to work on both the front-end and back-end, increases my ability to make  meaningful contributions in both team settings and independent work environments.<br> Like a gymnist, I am flexible and easily adapt when circumstances and situations change.
+                   <br> And while I realize that it is impossible to know it all,<br> that doesn't keep me from thinking that I could probably get really close!<br>...Just in case you didn't pick up on it,<br> one might think that is safe to assume that I tend to be optimistic.<br> I would have to agree and say that would be true. 
+                  </figcaption
+              </div>
+            
+             
+              <div class="mySlides fade">
+                   <div  id="htmlPic_slide-2"  class="Slideshow_Image">
+                       <img src="./HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JavaScript Shield">
+                   </div>
+                   <figcaption class="Slide_Text">As a full-stack developer, I am trained in the following: 
+                        <br>HTML5, CSS3, JavaScript
+                   </figcaption>
+              </div>
+      
+              <div class="mySlides fade">
+                   <div id="cSharpPic_slide-3"  class="Slideshow_Image">
+                        <img  src="./C_Sharp_and_Dot_NET.png" alt="C-Sharp and .Net Shield">
+                   </div>
+                   <figcaption class="Slide_Text">C#, .NET Framework, ASP.NET, Entity Framework, Object-Oriented Programming, <br>
+                          and the Model-View-Controller (MVC) Design Pattern.
+                  </figcaption>
+              </div>
+              
+      
+              <div class="mySlides fade" >
+                   <div id="sqlPic_slide-4" class="Slideshow_Image">
+                        <img src="./SQL_and_Database.jpg" alt="SQL and Databases Shield">
+                   </div>
+                   <figcaption class="Slide_Text">On the back-end, there is SQL Server, SSMS, SQL, T-SQL, Stored Procedures, and Relational Database Design & Management.
+                  
+                   </figcaption> 
+              </div>
+      
+              <div class="mySlides fade">
+                    <div id="typingVid_slide-5" class="Slideshow_Image" >
+                        <video id="typing" autoplay loop muted>
+                        <source src="./Typing.mp4" >Person sitting at computer typing computer code.
+                        </video>
+                    </div>
+                    <figcaption id= "Typing_Text" class="Slide_Text">Now, I know what you are thinking... You wanna say, " Get Outta Town, LaurieSue! "<br>
+                        But wait! just a minute... Hold those horses! It doesn't stop there.<br>
+                        Top all that off with Ingenuity, Creative Vision, Valuable Insight, Openess,<br>
+                                                            a Creative Imagination, a "Can-Do" Attitude, <br>
+                                                            and a Sense of Humor to boot!
+                    </figcaption>
+              </div>
+      
+              <div  class="mySlides fade ">
+                    <div id="rotaryPic_slide-6"  class="Slideshow_Image">
+                          <img  src="./ReSIZERotary_ContactMe.jpg" alt="Rotary telephones on the wall">
+                    </div>
+                    <figcaption id="Rotary_Text" class="Slide_Text">
+                          Go ahead and take a leap of faith!!!<br>
+                          Utilize this unique blend of skills and diverse life experiences <br>
+                          to fascilitate the change from the mundane<br>
+                          and the plain ol' Average and Ordinary<br>
+                          to The ENERGETIC, The EXCITING, and The EXTRAORDINARY!!!
+                     </figcaption>   
+               </div> 
+         </div>
+              
+           <!--Arrows for slideshow navigation-->
+             <div class="in-line-slideshow-nav-buttons">
+                <button class="PreviousButton NavButtons" onclick="plusSlides(-1)">&#10094;</button>
+                <button class="NextButton NavButtons" onclick="plusSlides(1)">&#10095;</button>
+             </div>
+
+                <!--DotBox for slideshow index marker and additional slideshow navigation -->
+             <div id="dotBox" >
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+             </div> 
+        
+</figure>
+    
+    <!--  BEGIN  SCRIPT  --  JAVASCRIPT FUNCTION FOR SLIDESHOW CAROUSEL  -->
+<script>
+          var slideIndex = 1;
+            showSlides(slideIndex);
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+              if (n > slides.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+                }
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+          }
+</script>
+      
+        <!--  END SCRIPT  --  JAVASCRIPT FUNCTION FOR SLIDESHOW CAROUSEL  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

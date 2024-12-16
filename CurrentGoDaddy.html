@@ -8,7 +8,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <title>LaurieSue Peterson Portfolio</title>
     <link rel="icon" href="FavIcon_PinkBeeMe.ico" type="image/x-icon"> 
-    <link rel="stylesheet" type="text/css" href="ZZZZcss.css">
+    <link rel="stylesheet" type="text/css" href="CurrentGoDaddy.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Stalemate&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
 <!-- Body -->
 <body>
 
-  <!-- Floating Contact Button for Form -->
+  <!-- Floating Contact Button for Form lower righthand-->
   <div id="ContactButton" >
     <button class="button cancel Pop_Up_Button" onclick="openForm()">Contact Me
 
@@ -48,8 +48,7 @@
      <div id="MyAudio">
         <audio autoplay>
           <source src="Cake_ShortSkirtLongJacket.mp3" type="audio/mp3">
-            Your browser doesn't support HTML5 audio. This audio track is by the band named CAKE.
-            The song title is "Short Skirt Long Jacket".
+            Your browser doesn't support HTML5 audio instead.
         </audio>
     </div>
 
@@ -62,7 +61,7 @@
 
             <video autoplay muted loop id="Golden-Moon_Video" >
                 <source src="Golden-Moon_Portfolio-Video.mp4" type="video/mp4"> 
-                          Your browser does not support HTML5 video. This visual is an animated display of a crescent moon made out of golden sparkles. 
+                          Your browser does not support HTML5 video.
             </video>
             
        
@@ -72,7 +71,7 @@
                 <div class="Video-Text_Container">
                 <!--Supposed to look like those "Hello- My name is..." stickers you fill out and stick to your shirt at high school reunions or networking functions (yes?...Yes!...LOL)--> 
                  <div class="Home-Video-Text_Wrap_2">
-                      <h4  id ="MyNameIs-Text_2">Hello...My name is</h4>
+                      <h4  id ="MyNameIs-Text_2">Hello... My name is</h4>
                  </div> 
 
                  <div class="Home-Video-Text_Wrap_3">
@@ -105,21 +104,19 @@
           <div id="mePic_slide-1" class="Slideshow_Image">
            <img src="./picOfMe.jpg" alt="Image of LaurieSue Peterson">
           </div>
-           <div class="Slide_Text">A Great Big "Hello There!!" From Me To You!! <br>
-             Let me introduce myself... My name is LaurieSue Peterson <br>
-             and  I am a Full-Stack Software Developer/ Engineer.
-            </div>
-
+          <div class="Slide_Text">Here's A Great Big "Hello There!!" From Me To You!! <br>
+            Let me introduce myself... My name is LaurieSue Peterson <br>
+            and  I am a Full-Stack Software Developer/ Engineer.
            </div>
-              
-        
+          </div>
       
        
 		    <div class="mySlides fade">
           <div  id="htmlPic_slide-2"  class="Slideshow_Image">
           <img src="./HTML_CSS_and_JavaScript.jpeg" alt="HTML, CSS, and JavaScript Shield">
           </div>
-          <div class="Slide_Text">As a full-stack developer,<br> I am trained in: HTML, CSS, JavaScript,...
+          <div class="Slide_Text">As a full-stack developer, I am trained in the following: 
+            <br>HTML5, CSS3, JavaScript
           </div>
           </div>
 
@@ -127,7 +124,8 @@
           <div id="cSharpPic_slide-3"  class="Slideshow_Image">
            <img  src="./C_Sharp_and_Dot_NET.png" alt="C-Sharp and .Net Shield">
           </div>
-           <div class="Slide_Text">C#, .NET Framework, ASP.NET, MVC, OOP,...
+           <div class="Slide_Text">C#, .NET Framework, ASP.NET, Entity Framework, Object-Oriented Programming, <br>
+            and the Model-View-Controller (MVC) Design Pattern.
            </div>
         </div>
         
@@ -136,8 +134,8 @@
           <div id="sqlPic_slide-4" class="Slideshow_Image">
             <img src="./SQL_and_Database.jpg" alt="SQL and Databases Shield">
           </div>
-            <div class="Slide_Text">and don't forget the back-end technologies...<br>
-               Including SQLServer, MSSMS, T-SQL, Stored Procedures, and Relational Database Management.
+            <div class="Slide_Text">On the back-end, there is SQL Server, SSMS, SQL, T-SQL, Stored Procedures, and Relational Database Design & Management.
+            
             </div> 
         </div>
 
@@ -147,8 +145,10 @@
                <source src="./Typing.mp4" >Person sitting at computer typing computer code.
             </video>
             </div>
-            <div id= "Typing_Text" class="Slide_Text">Top that off with Ingenuity, Insight, Empathy,<br>
-                                                      a Creative Imagination, a "Can-Do" Attitude,<br>
+            <div id= "Typing_Text" class="Slide_Text">Now, I know what you are thinking... You wanna say, " Get Outta Town, LaurieSue! "<br>
+              But wait! just a minute... Hold those horses! It doesn't stop there.<br>
+              Top all that off with Ingenuity, Creative Vision, Valuable Insight, Openess,<br>
+                                                      a Creative Imagination, a "Can-Do" Attitude, <br>
                                                       and a Sense of Humor to boot!
           </div>
         </div>
@@ -172,7 +172,6 @@
           <button class="PreviousButton NavButtons" onclick="plusSlides(-1)">&#10094;</button>
           <button class="NextButton NavButtons" onclick="plusSlides(1)">&#10095;</button>
     </div>
-
           <!--DotBox for slideshow index marker and additional slideshow navigation -->
         <div id="dotBox" >
   	        <span class="dot" onclick="currentSlide(1)"></span> 
@@ -181,8 +180,8 @@
 		        <span class="dot" onclick="currentSlide(4)"></span> 
 		        <span class="dot" onclick="currentSlide(5)"></span> 
 		        <span class="dot" onclick="currentSlide(6)"></span> 
-        </div>
-      </div> 
+      
+   </div> 
    </div> 
 </div>
   <!-- We included our JS function within this file to ensure it was given precedence, this function covers the slideshow -->
@@ -210,79 +209,87 @@
 	  slides[slideIndex-1].style.display = "block";  
 	  dots[slideIndex-1].className += " active";
 	}
-  
   </script>
 
+
+
 </div>
-
-
-
-<section id="About">
-
+<div>
+        <section>
+         
               <h2 id="About_Header">. . . just a little bit about myself . . .</h2> 
             
             
-       <p id="About_Disclaimer"><span class="Disclaimer-Bold">Disclaimer:</span> The following statements are supposed to be true... Then again, there is no guarantee... It could be a matter of opinion. In that case it is subjective information.,and by no means objective at all. Isn't that always the case? Fact or fiction,
-      True or false? It is up to You to decide. This, by no means, is a simple task. For, it is hard to tell in this day and age. Alas,fret not...All sources uncovered here are kept confidential and fresh, served chilled to preserve their integrity...That being said, most of the information 
-      found here has been obtained by way of stardard and customary means. Safety precautions have been implemented, prior to procurement, to protect the innocent. That being said...On the other hand, there is also content that has been "donated" from here and there -some might say these are
-      somewhat sketchy sources, and therefore, is most certainly purely unadulterated self-promoting propaganda of the worst kind.... So, whether the information from here on out be Fact or Fiction, True or False, Left or Right, High or Low, Up or Down, Good or Bad, Right or Wrong-ish...
-      We ask that You proceed with caution, and knowing all the information expressed previously, please take the following into consideration
-      :<span class="Disclaimer-Bold"> WARNING!</span> The next section does NOT necessarily reflect everyone's views...
-      The content, herein, may not even relect anyone in particular's views at all!!! Therefore, the fine folks here at 
-      CreatingTheCode.com cannot/ WILL NOT BE HELD RESPONSIBLE for any strange and/or subsequent effects (ill or otherwise) that said "views" may or may NOT have on one's
-      mood, appetite, posture, swollen feet, taste in music, or golf swing...imagined, real, or otherwise. This is the official, formal, proper, and legitimate public warning on record,... For The Record. You may now, carry on.
-               </p>  
-              
-            
-            <div id="PSA">
-                <h4> This has been a Public Service Announcement</h4>
-            </div>
-
-         
-       
-     
+               <p id="About_Disclaimer">Disclaimer: The following statements are supposed to be true... Then again, there is no guarantee... It could be a matter of opinion. In that case it is subjective information.,and by no means objective at all. Isn't that always the case? Fact or fiction,
+               True or false? It is up to You to decide. This, by no means, is a simple task. For, it is hard to tell in this day and age. Alas,fret not...All sources uncovered here are kept confidential and fresh, served chilled to preserve their integrity...That being said, most of the information found here has been obtained by way of stardard and customary means. Safety precautions have been implemented, prior to procurement, to protect the innocent. That being said...On the other hand, there is also content that has been "donated" from here and there -some might say these are somewhat sketchy sources, and therefore, is most certainly purely unadulterated self-promoting propaganda of the worst kind.... So, whether the information from here on out be Fact or Fiction, True or False, Left or Right, High or Low, Up or Down, Good or Bad, Right or Wrong-ish...We ask that You proceed with caution, and knowing all the information expressed previously, please take the following into consideration: WARNING! The next section does NOT necessarily reflect everyone's views...
+               The content, herein, may not even relect anyone in particular's views at all!!! Therefore, the fine folks here at 
+                    CreatingTheCode.com CAN/WILL NOT BE HELD RESPONSIBLE for any strange and/or subsequent effects (ill or otherwise) that said "views" may or may NOT have on one's
+                        mood, appetite, posture, swollen feet, taste in music, or golf swing...imagined, real, or otherwise. This is the official, formal, proper, and legitimate public warning on record,... For The Record. You may now, carry on.
+              </p>  
                
-                
-                
-        <div class="grid-container"> 
-     <!--     <div class ="About-grid">-->
-              <div class="card-content item-1">
-          
-
             
-              <h1 id="TheGist_Header">... the gist ...</h1>
+              <div id="PSA">
+                <h5> This has been a Public Service Announcement</h5>
+              </div>
+             
+           
               
+          </section>      
+       
+     <section>
+               
+                  <h3  id="TheGist_Header">. . . the gist . . .</h3> 
+                
+            <div class="container item-1 Column_1 Gist_Text"> 
 
-  
-                <p id="Para_1" class="Column_1 Gist_Text" ><span id="CriticalThinking" class="in-line-word show-on-scroll">Critical thinking</span> is a
-                <span id="Skill" class="in-line-word show-on-scroll" >skill</span>, an
-                <span id="ArtForm" class="in-line-word show-on-scroll">art form</span>,
-                and the <span id="Foundation" class="in-line-word show-on-scroll">foundation of great code</span>. <br>
-                Just like artists use different styles when expressing themselves, computer code can present itself in many ways... It can dazzle you with its sparkle and shine like 
-                <span id="Polished" class="in-line-word show-on-scroll" >the brilliance of polished diamonds</span>, or it can demand respect like a
-                 <span id="Masterpiece"class="in-line-word show-on-scroll" > exsquisite masterpiece</span>, or show up with the innocense and charm of a child expressed through the 
-                <span id="Doodle" class="in-line-word show-on-scroll">simplest of doodles</span>...
-                Just like art can be subjective, some code is good and some code is just... bad. Code can be all of the above or anything in between...And sometimes beauty truly is 
-                in the eye of the beholder! That's what is so cool about it!
-                </p>
-              
 
-       <p class="Gist_Text"><span id="CodeIs" class="in-line-word show-on-scroll" ><br><br>Ultimately, one could say that coding is liken to the strokes of a paintbrush that brings ideas 
-        to life for the artist, the creator...<br>
+           <p >  Trained as a <span id="FullStack" class="in-line-word show-on-scroll">Full-Stack Developer</span> at <br>
+              <span id="TechAcademy" class="in-line-word show-on-scroll" ><a href="https://www.learncodinganywhere.com/" target="_blank">The
+              Tech Academy Software Engineering Boot Camp</a></span>, <br> I gained valuable experience working with the following programming languages and
+               software developement tools:<span id="Tools" class="in-line-word show-on-scroll" > C#, JavaScript, ASP.NET, Object-Oriented Program (OOP), MVC,
+                  Entity Framework, SQL, Databases, HTML, CSS, Bootstrap and more.</span><br><br><br>
+            
+            I have always enjoyed <span id="Apart" class="in-line-word show-on-scroll" >taking things apart to see how they work</span>,<span id="Fixing" class="in-line-word show-on-scroll" > fixing things that are broken</span>, and <span id="Figuring" class="in-line-word show-on-scroll">figuring out how to make things work better</span>. I like playing detective, gathering information, finding hidden clues, deciphering secret codes, and creating my own code to solve mysteries.
+              <span id="Difficult"> I like to take difficult situations and and less than perfect circumstances and figure out how to make it an opportunity to create something positive.</span> I like to be a cheerleader and lend a helping hand to those in need. <span id="TakePride" class="in-line-word show-on-scroll">I take pride in my work.</span><br><br><span id="Better" class="in-line-word show-on-scroll">I like to make people smile. And if I can find a way to make someone's day better, maybe 
+              by helping them solve a problem, saying something funny, giving a compliment, being thoughtful and considerate, or showing appreciation - Then that is what I will do... 
+             If I can find a way to fill my days with stuff like that... Then, hey! </span><span id="Mission" class="in-line-word show-on-scroll"> Mission accomplished!</span><br><br>
+            
+              I will continue helping others and solving problems using my skills as a software engineer. <br><br>
+            
+              <span id="WhatName" class="in-line-word show-on-scroll">My name is... </span> <span id="LaurieSue">LaurieSue Peterson.</span>
+            <br><br><br> <br><br>
+            <br><br><span id="CantWait" class="in-line-word show-on-scroll"><br>...and I can't wait to create solutions for you!</span>
+</p>
+</div>
+</section>
+<section>
+          
+    <p id="Para_1" class="" ><span id="CriticalThinking" class="in-line-word show-on-scroll">Critical thinking</span> is a
+       <span id="Skill" class="in-line-word show-on-scroll" >skill</span>, an
+        <span id="ArtForm" class="in-line-word show-on-scroll">art form</span>,
+       and the <span id="Foundation" class="in-line-word show-on-scroll">foundation of great code</span>. <br>
+        Just like artists use different styles when expressing themselves, computer code can present itself in many ways... It can dazzle you with its sparkle and shine like a <span id="Polished" class="in-line-word show-on-scroll" > polished diamond</span>, or it can demand respect like a
+        a <span id="Masterpiece"class="in-line-word show-on-scroll" > brilliant masterpiece</span>, or show up with the innocense and charm of a child expressed through the 
+         <span id="Doodle" class="in-line-word show-on-scroll">simplest of doodles</span>...
+        Code may resemble all of the above or anything in between... That's the beauty of it! <br>
+
+        <span id="CodeIs" class="in-line-word show-on-scroll" ><br><br>This Code ultimately represents the ideas brought to life by the artist, the creator...<br>
   the computer programmer.<br><br></span><br>
 The<span id="Adventures" class="in-line-word show-on-scroll"> adventures</span>, the<span id="Discoveries" class="in-line-word show-on-scroll"> discoveries</span> , the
 <span id="Trials" class="in-line-word show-on-scroll">trials and tribulations</span>, the <span id="Obstacles" class="in-line-word show-on-scroll">
    obstacles to overcome</span>  , and the <span id="Hunt" class="in-line-word show-on-scroll"  >never-ending hunt for buried 
 treasure</span>... These are the things that lured me into the world of programming  ... and they are the reason I wake 
 up excited to tackle any problem that may arise. I can't wait to see what unexpected <span id="Twists" class="in-line-word show-on-scroll">twists and turns </span>
- my path will take as I step up and <span id="Welcome" class="in-line-word show-on-scroll"> welcome the challenge that each new day brings...</span>
-<br><br>
+ my path will take as I step up and <span id="Welcome" class="in-line-word show-on-scroll"> welcome the challenge that each new day brings...</span><br><br>
 </p>
+</section>
 
 
-<p class="Gist_Text"><span class="sponsor in-line-word show-on-scroll">
-And now a word from our sponsor...</span><br><br><br>
-<span class="AlmostFamous in-line-word show-on-scroll">The Almost Famous Co.</span><br><br>
+<section>
+  <div>
+ <p><span class="sponsor in-line-word show-on-scroll"><br><br>
+And now a word from our sponsor...
+<br><span class="AlmostFamous in-line-word show-on-scroll">The Almost Famous Co.</span><br><br>
 
  <q id="InTheLandOf" class="in-line-word show-on-scroll" > ...Tis true, that in the Land of Software Development,
     Information Technology, and Computer Programming one could never be bored... For there is
@@ -299,76 +306,29 @@ all you fine folks visiting here today,... a timeless treasure from our family t
  For one need not look too far down the ancestrial trail  
 to find evidence that someone,...somewhere, did something - be it good or bad -<span class="AlmostFamous in-line-word show-on-scroll"> That Almost Made Them Famous!</span>"<br><br>
 Our sole purpose is to make people aware of just how <span class="AlmostFamous"> Almost Famous</span> they might be, so they may rest assured and take comfort in this knowlege.
-<br><br>... and now back to our scheduled programming.<br><br><br>
-</p>
+<br><br>... and now back to our scheduled programming.<br><br>
+<br>
 
-
-
-<p class="Gist_Text">Trained as a <span id="FullStack" class="in-line-word show-on-scroll">Full-Stack Developer</span> at <br>
-  <span id="TechAcademy" class="in-line-word show-on-scroll" ><a href="https://www.learncodinganywhere.com/" target="_blank">The
-  Tech Academy Software Engineering Boot Camp</a></span>, <br> I gained valuable experience working with the following programming languages and
-   software developement tools:<span id="Tools" class="in-line-word show-on-scroll" > C#, JavaScript, ASP.NET, Object-Oriented Program (OOP), MVC,
-      Entity Framework, SQL, Databases, HTML, CSS, Bootstrap and more.</span><br><br><br>
-      </p>
-
-
-
-<p class="Gist_Text">I have always enjoyed <span id="Apart" class="in-line-word show-on-scroll" >taking things apart to see how they work</span>,
-  <span id="Fixing" class="in-line-word show-on-scroll" > fixing things that are broken</span>, and <span id="Figuring" class="in-line-word show-on-scroll">
-    figuring out how to make things work better</span>. I like playing detective, gathering information, finding hidden clues, deciphering secret codes, and 
-    creating my own code to solve mysteries.
-  <span id="Difficult"> I like the challenge of working through difficult situations where the circumstances that you have to work with are often less than perfect.
-     Creating something where there seems to be nothing is an amazing experience. Finding a solution and then making it a reality...
-     There are few things that feel better than that!</span> 
-  I'd say that I am a good cheerleader. If someone needs help, I do what it takes to get the help we need. <span id="TakePride" class="in-line-word show-on-scroll">I
-     take pride in my work.</span><br><br><span id="Better" class="in-line-word show-on-scroll">I smile and laugh alot. I like to give and receive compliments. 
-      I appreciate the talents and contributions of others.
-    I do my best to be thoughtful and considerate. I have strong opinions but I am interested and open to hearing the viewpoints of others. I like to win. 
-    I also appreciate strong opposition, without which we cannot learn and grow. There is always more to learn and more than one way to get where you are going.
-     So win or lose, make sure to make most out of every situation. I am a strong believer in the right to change your mind. It takes a strong and courageous person 
-     to admit when they are wrong. I am NOT a quitter. I am proud to say that God is my Heavenly Father and Jesus Christ is my Lord and Savior.
-  <br> <br>So, yeah... I guess you could say, "That's ME!" </span>
-  </p>
-
-
- 
- <p class="Gist_Text"><span class="in-line-word show-on-scroll"></span> Software Engineering has given me a way to fill my days with the stuff I like to do. </span><br><br>
-
-  My ambition is high and my goals are many. My hope and desire is to make the most of my God-given gifts and talents and continue to encourage and help others to do the same. 
-  I hope to show that through FAITH, persistence, hard work, and determination, GREAT THINGS ARE POSSIBLE!!! 
-  I plan on solving problems using my skills as a software engineer. I try to make the most of every day and be a kind and caring influence in the world. 
-  I want my parents and my children to be proud of me. <br><br>
-
-  <span id="WhatName" class="in-line-word show-on-scroll">My name is... </span> <span id="LaurieSue">LaurieSue Peterson.</span>
-<br><br><br> <br><br>
-<br><br><span id="CantWait" class="in-line-word show-on-scroll"><br>...and I can't wait to create solutions with you!</span>
-<span id="Mission" class="in-line-word show-on-scroll"> Mission accomplished!</span>
-</p>      
- </div>  
-         
-                    
+  </p> <!--item--1 close-->         
+  </div>
+   </section>           
        
-  
-  <div class="card-content item-2">
+    
+
+
                     
-              <div id="Earth_Lightbulb_Container" class=" card-img" >
+              <div id="Earth_Lightbulb_Container" class="item-2">
                 
                   <img id="Earth" src="./lightbulb_earth.jpg" alt="lightbulb_earth"/> 
-              </div>
+
                  
                   <div id="Earth_Lightbulb_Text"><p class="EarthQuote"><q class="Quote">Technology, like art, is an exercise of the human imagination</q><br>
                   <span id="Author">- Daniel Bell</span></p>
                   </div>
-              
-        </div>    
+              </div>
 
 
-
-      
-
-
-  <div class="card-content item-3">
-                <div id="LinkedIn" class="card-img">
+                <div id="LinkedIn" class="item-3">
                     <a href="https://www.linkedin.com/in/lauriesue" target="blank">
                     <img id="LinkedInPic" src="./LI-Logo.png" width="70%" alt="LinkedInLink">
                     </a>
@@ -376,27 +336,17 @@ Our sole purpose is to make people aware of just how <span class="AlmostFamous">
                      www.linkedin.com/in/lauriesue</a>
                     </p>
                 </div> 
-              </div>
+              
+                
 
-
-
-
-  <div class="card-content item-4 ">
-                  
-                    <div id="AboutFaucetAlbert" class="card-img">
+                    <div id="AboutFaucetAlbert" class="item-4">
                         <img id="FaucetHead" src="./LightbulbFaucetHead.png" alt="LightBulbFaucetHead" style="width:40vw; height:40vh;"/>
                         <p id="FaucetText"><q>Logic will get you from A to B.<br>
                             Imagination will take you everywhere.</q><br>
                                             <br>- Albert Einstein</p>
                     </div>
-                    </div>
 
-
-
-
-  <div class="card-content item-5">
-
-                    <div id="GitHub"class="card-img">
+                    <div id="GitHub"class="item-5">
                        <a href="https://github.com/pink-bee-me" target="_blank">
                        <img id="GitHubCat" src="./GitHub.png" alt="GitHub Logo">
                        </a>
@@ -404,49 +354,37 @@ Our sole purpose is to make people aware of just how <span class="AlmostFamous">
                               target="_blank">www.github.com/pink-bee-me</a>
                       </p>
                     </div>	
-                    
-</div>
 
-
-
-
-  <div class="card-content item-6">
-
-                <div id="video-container2"class="card-video">
+                <div id="video-container2"class="item-6">
                     <video id="Idea" autoplay loop mute>
                         <source src="./Lightbulb.mp4">
                         Video unable to play on this browser
                     </video>
               
-                    <div id="video-text_2" class="card-content">
+                    <div id="video-text_2">
                         <h2 id="LetsTalk">Let's Talk!</h2>
                         <h4 id="ClickMe">Click the <a id="ContactMe" href="#contactButt" onclick="buttonPink()">Contact Me</a>
                         button<br> in the lower right corner...<br>
                         It's as easy as that!</h4>
                     </div>
-              
-            </div>
-</div>
+              </div>
 
-
- 
-  <div class="card-content item-7">
-
-<div id="ShineContainer" class="card-video">
+<div id="ShineContainer"class="item-7">
   <video id="Shine" autoplay loop mute>
     <source src="./Sparkler_Left.mp4">
     Video unable to play on this browser
 </video>
-<div id="Shine_Text" class="card-content">
+<div id="Shine_Text">
   <h4 id="LightOfMine">Let's Talk!</h4>
   <h4 id="ClickMe">Click the <a id="ContactMe" href="#contactButt" onclick="buttonPink()">Contact Me</a>
   button<br> in the lower right corner...<br>
   It's as easy as that!</h4>
 </div>
 </div>
+
+</div>          
+</section>
 </div>
-</div>    
-</section>  
 
     <!-- Contact section -->
     <div id="Contact">
@@ -471,7 +409,7 @@ Our sole purpose is to make people aware of just how <span class="AlmostFamous">
     </div>
     
 <<!--div class="Row">-->
- <div class="Poem_Background">    
+ <div class="Poem_Background"class="item-8">    
     <video id="Sparkler_Hands" autoplay muted loop>
       <source src="Sparkler_Hands.mp4" type="video/mp4"> 
                           Your browser does not support HTML5 video.
@@ -495,7 +433,7 @@ Our sole purpose is to make people aware of just how <span class="AlmostFamous">
   
   </div> <!--grid container close-->
        
-    <div class="Row">
+    <div class="item-9 Row">
     
 
         <h3 id="ThankYou">Thank You for your time... We enjoyed showing you around!<br> <span id="Until"> until we meet again, </span></h3>
@@ -509,7 +447,7 @@ Our sole purpose is to make people aware of just how <span class="AlmostFamous">
     <footer>
 
        
-            <div id="OscarWilde">
+            <div id="OscarWilde" class="item-10">
     
             <p>
                 <q>Be yourself; everyone else is already taken.</q><br>
